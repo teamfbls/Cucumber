@@ -1,0 +1,12 @@
+Feature: DataSearch
+
+  Scenario: User Searches Verkaufspreis      # C:/Users/Thaskioglu/Documents/TestingCucumber/bin/cucumber/feature/datasearch.feature:3
+    Given User is on Website5                # TestClass5.goToWebsiteindex()
+    When User clicked on Webpage Auto suchen # TestClass5.goToWebsitesu()
+    When User Inputs SearchString            # TestClass5.searchString()
+    Then User clicked on search              # TestClass5.clickedonsearch()
+    Then See result                          # TestClass5.seeresult()
+
+1 Scenarios (1 passed)
+5 Steps (5 passed)
+0m5,414s

@@ -1,0 +1,10 @@
+Feature: ShowCars
+
+  Scenario: Show all Cars        # C:/Users/Thaskioglu/Documents/TestingCucumber/bin/cucumber/feature/showcars.feature:3
+    Given User is on Website3    # TestClass3.goToWebsiteindex()
+    When User clicked on Webpage # TestClass3.goToWebsitean()
+    Then Check if entry is there # TestClass3.checktable()
+
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m4,417s

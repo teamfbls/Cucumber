@@ -1,0 +1,11 @@
+Feature: LatestEntry
+
+  Scenario: Show LatestEntry                 # C:/Users/Thaskioglu/Documents/TestingCucumber/bin/cucumber/feature/lastentry.feature:3
+    Given User is on Website4                # TestClass4.goToWebsiteindex()
+    When User clicked on Webpage LatestEntry # TestClass4.goToWebsite4()
+    When User clicked on first entry         # TestClass4.clickonEntry()
+    Then Check if table is there             # TestClass4.check()
+
+1 Scenarios (1 passed)
+4 Steps (4 passed)
+0m4,193s

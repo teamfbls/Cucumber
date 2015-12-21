@@ -1,0 +1,10 @@
+Feature: DataDelete
+
+  Scenario: Delete                # C:/Users/Thaskioglu/Documents/TestingCucumber/src/cucumber/feature/datadelete.feature:3
+    Given User is on Website2     # TestClass2.goToWebsiteindex()
+    When User clicked on Checkbox # TestClass2.clickoncheck()
+    Then Delete entry             # TestClass2.deleteentry()
+
+1 Scenarios (1 passed)
+3 Steps (3 passed)
+0m5,085s

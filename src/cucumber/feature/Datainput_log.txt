@@ -1,0 +1,11 @@
+Feature: DataInput
+
+  Scenario: Check if Website works       # C:/Users/Thaskioglu/Documents/TestingCucumber/src/cucumber/feature/datainput.feature:3
+    Given User is on Website             # TestClass.goToWebsiteindex()
+    When User clicked on Auto Hinzufügen # TestClass.goToWebsitehin()
+    When Fill All                        # TestClass.fillText()
+    Then Ok                              # TestClass.ok()
+
+1 Scenarios (1 passed)
+4 Steps (4 passed)
+0m14,956s

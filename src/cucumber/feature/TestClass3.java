@@ -13,32 +13,29 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class TestClass2 {
+public class TestClass3 {
 	
 	 WebDriver driver=null;
 	    
-	    @Given("^User is on Website2$")
+	    @Given("^User is on Website3$")
 	    public void goToWebsiteindex(){
 	    driver=new FirefoxDriver();
 	   driver.navigate().to("http://localhost:8080/mavenproject1/");
-	   driver.findElement(By.id("autolo")).click();
+	  
 	    }
 	    
 	        
-	    @When("^User clicked on Checkbox$")
-	    public void clickoncheck(){
-	    	driver.findElement(By.id("checkb4")).click();
+	    @When("^User clicked on Webpage$")
+	    public void goToWebsitean(){
+	    	 driver.findElement(By.id("autoan")).click();
 	   
 	    }
-	    
-	           
-	  
 	        
 	        
-	    @Then("^Delete entry$")
-	    public void deleteentry(){
+	    @Then("^Check if entry is there$")
+	    public void checktable(){
 	    	
-	    	driver.findElement(By.name("buttonlo")).click();
+	    	driver.findElement(By.cssSelector("table[class*=table-bordered]"));
 	    }
 
 }

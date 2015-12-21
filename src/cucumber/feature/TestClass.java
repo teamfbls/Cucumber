@@ -32,7 +32,7 @@ public class TestClass {
            
   
         
-    @When("^Fill in Textbox$")
+    @When("^Fill All$")
     public void fillText(){
     	
     driver.findElement(By.id("datafetchverkaufspreis")).sendKeys("15000");
